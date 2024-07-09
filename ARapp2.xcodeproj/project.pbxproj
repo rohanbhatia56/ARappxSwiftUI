@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDD1E1C22C3D614B005577B9 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1E1C12C3D614B005577B9 /* ARViewContainer.swift */; };
+		CDD1E1C42C3D61D1005577B9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1E1C32C3D61D1005577B9 /* Coordinator.swift */; };
+		CDD1E1C82C3D73C2005577B9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD1E1C72C3D73C2005577B9 /* Constants.swift */; };
 		CDF0E3F92C3CFA3700169DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E3F82C3CFA3700169DBE /* AppDelegate.swift */; };
 		CDF0E3FB2C3CFA3700169DBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E3FA2C3CFA3700169DBE /* ContentView.swift */; };
 		CDF0E3FD2C3CFA3A00169DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF0E3FC2C3CFA3A00169DBE /* Assets.xcassets */; };
 		CDF0E4002C3CFA3A00169DBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF0E3FF2C3CFA3A00169DBE /* Preview Assets.xcassets */; };
-		CDF0E40A2C3CFA3A00169DBE /* ARapp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E4092C3CFA3A00169DBE /* ARapp2Tests.swift */; };
+		CDF0E40A2C3CFA3A00169DBE /* ARViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E4092C3CFA3A00169DBE /* ARViewModelTests.swift */; };
 		CDF0E4142C3CFA3A00169DBE /* ARapp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E4132C3CFA3A00169DBE /* ARapp2UITests.swift */; };
 		CDF0E4162C3CFA3A00169DBE /* ARapp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E4152C3CFA3A00169DBE /* ARapp2UITestsLaunchTests.swift */; };
 		CDF0E4282C3D04D800169DBE /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CDF0E4232C3D04D800169DBE /* toy_car.usdz */; };
 		CDF0E4292C3D04D800169DBE /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CDF0E4242C3D04D800169DBE /* toy_biplane_idle.usdz */; };
-		CDF0E42E2C3D133000169DBE /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E42D2C3D133000169DBE /* ARModel.swift */; };
 		CDF0E4302C3D134000169DBE /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0E42F2C3D134000169DBE /* ARViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,19 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CDD1E1C12C3D614B005577B9 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		CDD1E1C32C3D61D1005577B9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CDD1E1C72C3D73C2005577B9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CDF0E3F52C3CFA3700169DBE /* ARapp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARapp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF0E3F82C3CFA3700169DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF0E3FA2C3CFA3700169DBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDF0E3FC2C3CFA3A00169DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF0E3FF2C3CFA3A00169DBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDF0E4052C3CFA3A00169DBE /* ARapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF0E4092C3CFA3A00169DBE /* ARapp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARapp2Tests.swift; sourceTree = "<group>"; };
+		CDF0E4092C3CFA3A00169DBE /* ARViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModelTests.swift; sourceTree = "<group>"; };
 		CDF0E40F2C3CFA3A00169DBE /* ARapp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARapp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF0E4132C3CFA3A00169DBE /* ARapp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARapp2UITests.swift; sourceTree = "<group>"; };
 		CDF0E4152C3CFA3A00169DBE /* ARapp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARapp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CDF0E4232C3D04D800169DBE /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_car.usdz; path = ../../../Downloads/toy_car.usdz; sourceTree = "<group>"; };
 		CDF0E4242C3D04D800169DBE /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_biplane_idle.usdz; path = ../../../Downloads/toy_biplane_idle.usdz; sourceTree = "<group>"; };
-		CDF0E42D2C3D133000169DBE /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
 		CDF0E42F2C3D134000169DBE /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,12 +107,14 @@
 		CDF0E3F72C3CFA3700169DBE /* ARapp2 */ = {
 			isa = PBXGroup;
 			children = (
+				CDD1E1C32C3D61D1005577B9 /* Coordinator.swift */,
+				CDD1E1C12C3D614B005577B9 /* ARViewContainer.swift */,
 				CDF0E3F82C3CFA3700169DBE /* AppDelegate.swift */,
 				CDF0E3FA2C3CFA3700169DBE /* ContentView.swift */,
 				CDF0E3FC2C3CFA3A00169DBE /* Assets.xcassets */,
 				CDF0E3FE2C3CFA3A00169DBE /* Preview Content */,
-				CDF0E42D2C3D133000169DBE /* ARModel.swift */,
 				CDF0E42F2C3D134000169DBE /* ARViewModel.swift */,
+				CDD1E1C72C3D73C2005577B9 /* Constants.swift */,
 			);
 			path = ARapp2;
 			sourceTree = "<group>";
@@ -124,7 +130,7 @@
 		CDF0E4082C3CFA3A00169DBE /* ARapp2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				CDF0E4092C3CFA3A00169DBE /* ARapp2Tests.swift */,
+				CDF0E4092C3CFA3A00169DBE /* ARViewModelTests.swift */,
 			);
 			path = ARapp2Tests;
 			sourceTree = "<group>";
@@ -279,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF0E42E2C3D133000169DBE /* ARModel.swift in Sources */,
 				CDF0E3FB2C3CFA3700169DBE /* ContentView.swift in Sources */,
+				CDD1E1C22C3D614B005577B9 /* ARViewContainer.swift in Sources */,
+				CDD1E1C42C3D61D1005577B9 /* Coordinator.swift in Sources */,
 				CDF0E3F92C3CFA3700169DBE /* AppDelegate.swift in Sources */,
+				CDD1E1C82C3D73C2005577B9 /* Constants.swift in Sources */,
 				CDF0E4302C3D134000169DBE /* ARViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF0E40A2C3CFA3A00169DBE /* ARapp2Tests.swift in Sources */,
+				CDF0E40A2C3CFA3A00169DBE /* ARViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -428,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
